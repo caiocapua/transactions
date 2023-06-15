@@ -10,7 +10,7 @@
     "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
     "lint": "eslint src --ext .ts --fix",
     "test": "vitest",
-    "build": "tsup src"
+    "build": "tsup src --out-dir build"
   },
   "license": "MIT",
   "dependencies": {
