@@ -2,6 +2,9 @@
   "name": "Projeto 02",
   "version": "1.0.0",
   "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "knex": "node --no-warnings --loader tsx ./node_modules/knex/bin/cli.js",
@@ -16,6 +19,7 @@
     "dotenv": "^16.0.3",
     "fastify": "^4.17.0",
     "knex": "^2.4.2",
+    "pg": "^8.11.0",
     "sqlite3": "^5.1.6",
     "typescript": "^5.0.4",
     "zod": "^3.21.4"
